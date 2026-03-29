@@ -1,4 +1,3 @@
-
 import discord
 from discord.ext import commands
 import json
@@ -119,4 +118,4 @@ async def reset(ctx):
     await ctx.send("🧹 Contador reseteado correctamente.")
 
 
-bot.run("TOKEN")
+bot.run("DISCORD_TOKEN")
